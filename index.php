@@ -22,10 +22,10 @@
       <input type="text" name="email" id="email" placeholder="Your email" />
     </div>
     <textarea name="message" id="message" placeholder="Your message..."></textarea>
-    <button id="btn" type="button">Send <span>send</span></button>
+    <button id="btn" type="submit">Send <span>send</span></button>
   </form>
   <script src="dist/jquery.min.js" type="text/javascript"></script>
-  <script type="text/javascript">
+  <!--<script type="text/javascript">
     $("#close").click(()=> {
       $(".alert").removeClass("act");
       $(".alert").removeClass("done");
@@ -64,6 +64,6 @@
         });
       }
     });
-  </script>
+  </script>-->
 </body>
 </html>
