@@ -6,8 +6,8 @@ $to = "qasimsarwari2020@gmail.com";
 $subject = "Mail from users";
 $txt = "Name = ".$name."\r\n Email = ".$email."\r\n Message = ".$message;
 $headers = "From: qasimsarwari2020@gmail.com \r\n";
-$su = mail($to, $subject, $txt, $headers);
-if ($su) {
+mail($to, $subject, $txt, $headers);
+/*if ($su) {
   header("location: index.php");
-}
+}*/
 ?>
